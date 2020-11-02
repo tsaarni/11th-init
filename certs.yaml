@@ -1,0 +1,9 @@
+subject: cn=root
+---
+subject: cn=client
+issuer: cn=root
+---
+subject: cn=server
+issuer: cn=root
+sans:
+- DNS:localhost
